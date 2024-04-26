@@ -32,10 +32,10 @@ class UserBookCrudController extends AbstractCrudController
                 $badgeColor = '';
                 switch ($value) {
                     case 'read':
-                        $badgeColor = 'badge-primary';
+                        $badgeColor = 'badge-success';
                         break;
                     case 'reading':
-                        $badgeColor = 'badge-success';
+                        $badgeColor = 'badge-primary';
                         break;
                     case 'to-read':
                         $badgeColor = 'badge-warning';
