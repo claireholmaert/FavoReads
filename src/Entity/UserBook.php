@@ -126,6 +126,6 @@ class UserBook
 
     public function __toString(): string
     {
-        return $this->getBook();
+        return $this->status;
     }
 }
